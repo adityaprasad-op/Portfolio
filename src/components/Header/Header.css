@@ -237,7 +237,7 @@ nav ul{
         font-size: 1.2rem;
     }
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) and (min-width: 400px){
     .imgbox{
         height: 240px;
         border-radius: 149px;
@@ -258,11 +258,10 @@ nav ul{
         flex-direction: column-reverse;
         height: 100%;
         width: 100%;
-        margin-bottom: 0px;
-        margin-top: 78px;
+        margin-bottom: 162px;
+        margin-top: 176px;
     }
     .header-text{
-        max-width: 37rem;
         margin-bottom: 17px;
         margin-left: 0rem;
         margin-top: 53px;
@@ -278,5 +277,49 @@ nav ul{
 
     nav{
         margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .imgbox{
+        height: 230px;
+        border-radius: 149px;
+        border-color: var(--primary-color);
+    } 
+    .header-text h3{
+        font-size: 1rem;
+    }
+    
+    .header-text h1{
+        font-size: 1.8rem;
+    }
+    .logo h1{
+        font-size: 1.7rem;
+    }
+    .cont{
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 217px;
+        margin-top: 180px;
+    }
+    .header-text{
+        margin-bottom: 17px;
+        margin-left: 0rem;
+        margin-top: 53px;
+    }
+    .imgbox img{
+        height: 210px;
+        width: 230px;
+        border-radius: 50%;
+        border: var(--primary-color);
+        border-width: 118px;
+        border: solid;
+    }
+
+    nav{
+        margin-bottom: 30px;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
     }
 }

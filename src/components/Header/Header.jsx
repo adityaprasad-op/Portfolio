@@ -30,7 +30,7 @@ const Header = (props) => {
   const el=useRef(null);
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['FrontEnd Developer', 'Competitive Programmer', 'Badminton Player'],
+      strings: ['FrontEnd Developer', 'Programmer', 'Badminton Player'],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -74,7 +74,7 @@ const Header = (props) => {
         <div className='header-text'>
           <h3>Hello, It's me</h3>
           <h1>Aditya Prasad</h1>
-          <h3>And I'm a <span ref={el}> </span></h3>
+          <h3>I'm a <span ref={el}> </span></h3>
         </div>
       <div className='imgbox'>
         <img src={newimg}/>
