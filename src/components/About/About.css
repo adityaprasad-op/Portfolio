@@ -1,0 +1,137 @@
+#about{
+    padding: 80px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col1{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-col1 img{
+    width: 100%;
+}
+
+.about-col2{
+    flex-basis: 56%;
+    font-size: 1.2rem;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    transition: 0.8s;
+    bottom: -8px;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-content ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-content ul li span{
+    color: #c92f5e;
+    font-size: 1.3rem;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content.active-tab{
+    display: block;
+    height: 200px;
+}
+.subtitle-about{
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 820px) and (min-width:500px){
+   .about-col1{
+       flex-basis: 55%;
+   }
+   .row{
+       justify-content: center;
+       align-items: center;
+   }
+   .about-col2{
+       flex-basis: auto;
+       font-size: 1rem;
+   }
+   .about-col1{
+       margin-bottom: 20px;
+   }
+   .tab-links{
+       font-size: 1.2rem;
+       margin-right: 30px;
+   }
+   .subtitle-about{
+       font-size: 3.2rem;
+       margin-bottom: 10px;
+   }
+} 
+@media only screen and (max-width: 500px) and (min-width: 200px){
+    .subtitle-about{ 
+     font-size: 2rem;
+     text-align: center;
+     margin-bottom: 10px;
+    }
+    .about-col1, .about-col2{
+         flex-basis: 100%;
+    }
+    .about-col1{
+     margin-bottom: 20px;
+    }
+    .about-col2{
+     font-size: 0.8rem;
+    }
+    .tab-links{
+     font-size: 1rem;
+     margin-right: 20px;
+    }
+    .about-col1 img{
+        width: 60%;
+    }
+    #about{
+        padding: 23px 0;
+    }
+ } 
+
+ @media only screen and (max-width: 200px){
+    .subtitle-about{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+}
+ 
