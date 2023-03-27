@@ -57,14 +57,23 @@
     .subtitle-skills{
         font-size: 3.2rem;
     }
+    .skills-list div h2{
+        font-size: 2rem;
+    }
 }
-@media only screen and (max-width: 500px) and (min-width: 200px){
+@media only screen and (max-width: 500px) and (min-width: 400px){
     .subtitle-skills{
         font-size: 2.5rem;
     }
+    .skills-list div h2{
+        font-size: 2rem;
+    }
 }
-@media only screen and (max-width: 200px){
+@media only screen and (max-width: 400px){
     .subtitle-skills{
         font-size: 1.5rem;
+    }
+    .skills-list div h2{
+        font-size: 2rem;
     }
 }

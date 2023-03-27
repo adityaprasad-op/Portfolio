@@ -39,7 +39,7 @@ svg{
     fill: var(--svg-color);
     transition: 0.8s;
 }
-svg:hover{
+.social-icons svg:hover{
     transform: translateY(-15px);
     fill: #ff004f;
 } 
