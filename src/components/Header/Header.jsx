@@ -30,7 +30,7 @@ const Header = (props) => {
   const el=useRef(null);
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['FrontEnd Developer', 'Programmer', 'Badminton Player'],
+      strings: ['FrontEnd Developer', 'Programmer'],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
