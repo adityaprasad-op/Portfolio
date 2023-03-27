@@ -181,7 +181,7 @@ nav ul{
         fill: var(--primary-color);
     }
     nav ul{
-        background: #cc003f91;
+        background: #cc003f;
         position: fixed;
         top: 0;
         right: -200px;
