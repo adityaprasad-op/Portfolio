@@ -103,7 +103,7 @@
     color: var(--primary-color);
 }
 
-@media only screen and (max-width: 1100px) and (min-width: 770px){
+@media only screen and (max-width: 1100px) and (min-width: 650px){
     .layer p{
         font-size: 12px;
     }
@@ -120,15 +120,15 @@
     }
 }
 
-@media only screen and (max-width: 770px) and (min-width: 500px){
+@media only screen and (max-width: 650px) and (min-width: 500px){
     .subtitle-projects{
         font-size: 3.2rem;
     }
     .layer p{
-        font-size: 12px;
+        font-size: 1.3rem;
     }
     .layer h2{
-        font-size: 15px;
+        font-size: 2rem;
     }
     .layer a{
         width: 48px;
@@ -147,10 +147,10 @@
 }
 @media only screen and (max-width: 400px) and (min-width: 260px){
     .layer p{
-        font-size: 10px;
+        font-size: 0.9rem;
     }
     .layer h2{
-        font-size: 13px;
+        font-size: 1.3rem;
     }
     .layer a{
         width: 40px;
