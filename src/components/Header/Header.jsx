@@ -56,6 +56,7 @@ const Header = (props) => {
   }
   return (
     <div id='header'>
+    <div className='test' ></div>
       <nav>
         <div className='logo'>
           <h1 onClick={goToHomePage}><span>A</span>ditya.</h1>

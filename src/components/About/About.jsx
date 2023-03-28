@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const About = () => {
   useEffect(()=>{
-    Aos.init({duration:850})
+    Aos.init({duration:1000})
   },[])
   const[activeTab,setActiveTab]=useState("achievements");
 
@@ -18,7 +18,7 @@ const About = () => {
     <div id='about'>
       <div className='container'>
         <div className='row'>
-          <div data-aos="zoom-in" className='about-col1'>
+          <div data-aos="zoom-out" className='about-col1'>
             <img src={Work}/>
           </div>
           <div data-aos="zoom-in" className='about-col2'>

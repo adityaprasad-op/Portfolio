@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div id='skills'>
         <div className='container'>
-            <h1 data-aos="zoom-in"  className='subtitle-skills'>My Skills</h1>
+            <h1 data-aos="fade-up"  className='subtitle-skills'>My Skills</h1>
             <div data-aos="zoom-in" className='skills-list'>
                 <div >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div id='projects'>
     <div className='container'>
-        <h1 data-aos="zoom-in"  className='subtitle-projects'>My Projects</h1>
+        <h1 data-aos="fade-up"  className='subtitle-projects'>My Projects</h1>
         <div className='work-list'>
             <div data-aos="zoom-in"  className='work'>
                 <img src={Ai}/>
