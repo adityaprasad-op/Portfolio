@@ -93,6 +93,7 @@ nav ul{
 #icon{
     width: 30px;
     cursor: pointer;
+    margin-top: 4px;
 }
 
 .header-text{
@@ -314,7 +315,7 @@ nav ul{
         height: 100%;
         width: 100%;
         margin-bottom: 110px;
-        margin-top: 175px;
+        margin-top: 160px;
     }
     .header-text{
         margin-bottom: 17px;
@@ -359,7 +360,7 @@ nav ul{
         height: 100%;
         width: 100%;
         margin-bottom: 103px;
-        margin-top: 190px;
+        margin-top: 150px;
     }
     #icon{
         width: 20px;
