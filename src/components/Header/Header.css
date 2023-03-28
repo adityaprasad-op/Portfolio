@@ -1,5 +1,5 @@
 .container{
-    padding: 10px 10%;
+    padding: 0px 5%;
 }
 
 #header{
@@ -286,11 +286,11 @@ nav ul{
         border-color: var(--primary-color);
     } 
     .header-text h3{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     
     .header-text h1{
-        font-size: 1.8rem;
+        font-size: 2.8rem;
     }
     .logo h1{
         font-size: 1.7rem;
@@ -309,8 +309,8 @@ nav ul{
         margin-top: 53px;
     }
     .imgbox img{
-        height: 210px;
-        width: 230px;
+        height: 240px;
+        width: 260px;
         border-radius: 50%;
         border: var(--primary-color);
         border-width: 118px;
