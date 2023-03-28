@@ -13,12 +13,13 @@
 
 .contact-left p{
     margin-top: 30px ;
+    font-size: 20px
 }
 .contact-left p:hover{
     cursor: pointer;
 }
 .contact-left p img{
-    width: 24px ;
+    width: 20px ;
 }
 .social-icons{
     margin-top: 30px;
@@ -106,10 +107,22 @@ form .btn2{
     .subtitle-contacts{
         font-size: 3.6rem;
     }
+    .contact-left p{
+        font-size: 17px;
+    }
+    .contact-left p img {
+        width: 17px;
+    }
 }
 @media only screen and (max-width: 970px) and (min-width: 820px){
     .subtitle-contacts{
         font-size: 3rem;
+    }
+    .contact-left p{
+        font-size: 13px;
+    }
+    .contact-left p img {
+        width: 10px;
     }
 }
 @media only screen and (max-width: 820px) and (min-width: 600px){
