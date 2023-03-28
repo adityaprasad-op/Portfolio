@@ -3,9 +3,12 @@ import Typed from 'typed.js'
 import './Header.css'
 import Menu from '../../assets/menu.svg'
 import Cross from '../../assets/cross.svg'
-import newimg from '../../assets/newimg.png'
+import newimg from '../../assets/newimg1.png'
 import sun from '../../assets/sun.png'
 import moon from '../../assets/moon.png'
+function goToHomePage() {
+  window.location.href = "/Portfolio#header";
+}
 
 const Header = (props) => {
 
@@ -55,7 +58,7 @@ const Header = (props) => {
     <div id='header'>
       <nav>
         <div className='logo'>
-          <h1><span>A</span>ditya.</h1>
+          <h1 onClick={goToHomePage}><span>A</span>ditya.</h1>
         </div>
           <ul id='sidemenu' style={{ right: menuOpen ? "0" : "-200px" }}>
               <li><a href="#header">Home</a></li>

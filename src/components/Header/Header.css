@@ -12,7 +12,7 @@
     width: auto;
     right: 0;
     z-index: -1;
-    height: 740px;
+    height: 745px;
     display: flex;
     justify-content: end;
     opacity: 0;
@@ -24,16 +24,19 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 3.5rem;
-    margin-right: 2.5rem;
-    margin-top: 1rem
+    background-color: var(--card-color);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .cont{
-    height: 100%;
-    width: 100%;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .logo h1{
@@ -41,6 +44,7 @@ nav{
     cursor: default;
     animation: slideRight 2s ease forwards;
     opacity: 0;
+    cursor: pointer;
 }
 
 .logo h1 span{
@@ -53,7 +57,6 @@ nav ul li{
     animation: slideLeft 2s ease forwards;
     opacity: 0;
 }
-
 
 nav ul li a{
     color: var(--primary-color);
@@ -90,8 +93,7 @@ nav ul{
 }
 
 .header-text{
-   max-width: 37rem;
-   margin-bottom: 80px;
+   margin-top: 100px;
    margin-left: 7rem;
 }
 
@@ -104,7 +106,7 @@ nav ul{
 }
 
 .header-text h1{
-    font-size: 3.5rem;
+    font-size: 4.3rem;
     font-weight: 700;
     margin: -3px 0;
     opacity: 0;
@@ -206,9 +208,21 @@ nav ul{
 } 
 
 
-@media only screen and (max-width: 1000px) and (min-width: 760px){
+@media only screen and (max-width: 1360px) and (min-width: 1000px){
     .imgbox{
-        height: 500px;
+        height: 560px;
+    } 
+    .header-text h3{
+        font-size: 1.3rem;
+    }
+    
+    .header-text h1{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 720px){
+    .imgbox{
+        height: 440px;
     } 
     .header-text h3{
         font-size: 1.5rem;
@@ -217,24 +231,62 @@ nav ul{
     .header-text h1{
         font-size: 2.5rem;
     }
+    .header-text{
+        margin-top: 180px;
+    }
     .logo h1{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+    }
+    #icon{
+        width: 25px;
     }
 }
-
-@media only screen and (max-width: 760px) and (min-width: 500px){
-    .imgbox{
-        height: 280px;
-    } 
+@media only screen and (max-width: 840px) and (min-width: 720px){
     .header-text h3{
         font-size: 1rem;
     }
+    .header-text h1{
+        font-size: 2rem;
+    }
+    .imgbox{
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 600px){
+    .imgbox{
+        height: 300px;
+    } 
+    .header-text h3{
+        font-size: 0.7rem;
+    }
     
     .header-text h1{
-        font-size: 1.9rem;
+        font-size: 1.6rem;
     }
     .logo h1{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+    }
+    #icon{
+        width: 25px;
+    }
+    .header-text{
+        margin-top: 180px;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 500px){
+    .imgbox{
+        height: 230px;
+    } 
+    .header-text h3{
+        font-size: 0.5rem;
+    }
+    
+    .header-text h1{
+        font-size: 1.4rem;
+    }
+    .header-text{
+        margin-top: 180px;
     }
 }
 @media only screen and (max-width: 500px) and (min-width: 400px){
@@ -251,7 +303,7 @@ nav ul{
         font-size: 3rem;
     }
     .logo h1{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     .cont{
         justify-content: center;
@@ -274,6 +326,9 @@ nav ul{
         border-width: 118px;
         border: solid;
     }
+    #icon{
+        width: 20px;
+    }
 
     nav{
         margin-bottom: 30px;
@@ -293,7 +348,7 @@ nav ul{
         font-size: 2.8rem;
     }
     .logo h1{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     .cont{
         justify-content: center;
@@ -302,6 +357,9 @@ nav ul{
         width: 100%;
         margin-bottom: 103px;
         margin-top: 124px;
+    }
+    #icon{
+        width: 20px;
     }
     .header-text{
         margin-bottom: 17px;
@@ -319,7 +377,5 @@ nav ul{
 
     nav{
         margin-bottom: 30px;
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
     }
 }
