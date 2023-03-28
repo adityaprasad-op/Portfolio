@@ -7,7 +7,7 @@ import newimg from '../../assets/newimg1.png'
 import sun from '../../assets/sun.png'
 import moon from '../../assets/moon.png'
 function goToHomePage() {
-  window.location.href = "/Portfolio#header";
+  window.location.href = "/#header";
 }
 
 const Header = (props) => {
