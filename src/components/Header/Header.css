@@ -4,9 +4,13 @@
 
 #header{
    margin: 0;
-   width: 100vw;
-   max-height: max-content;
-   /* background-image: url("../../assets/subtle-prism.svg"); */
+   height: 100%;
+   width: 100%;
+   background-image: var(--background-img);
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .imgbox{
@@ -21,6 +25,7 @@
     animation-delay: 0.7s;
     z-index: 998;
 }
+
 nav{
     display: flex;
     align-items: center;

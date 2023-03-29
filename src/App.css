@@ -11,18 +11,20 @@
 
 .dark-theme{
   color: #fff;
-  background-image: url("./assets/subtle-prism.svg");
+  background-image: url("./assets/subtle-prism1.svg");
   background-color: #080808;
   --primary-color: #fff;
   --secondary-color: #080808;
   --card-color: #262626;
   --main-color: #ff004f;
   --svg-color: #ababab;
+  --background-img:url("./assets/subtle-prism1.svg")
 }
 
 .light-theme{
   color: #080808;
   background-image: url("./assets/subtle-prism2.svg");
+  --background-img:url("./assets/subtle-prism2.svg");
   --primary-color: #080808;
   --secondary-color: #fff;
   --card-color: #c6c6c6;
