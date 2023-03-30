@@ -42,12 +42,12 @@ svg{
 }
 .social-icons svg:hover{
     transform: translateY(-15px);
-    fill: #ff004f;
+    fill: var(--main-color);
 } 
 
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: var(--main-color);
 }
 
 .contact-right form{

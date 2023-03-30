@@ -32,7 +32,7 @@ const About = () => {
               <p className={`tab-links ${activeTab === "education" ? "active-link" : ""}`}
           onClick={() => opentab("education")}>Education</p>
             </div>
-            <div className={`tab-content ${activeTab === "achievements" ? "active-tab" : ""}`} id='skills'>
+            <div className={`tab-content ${activeTab === "achievements" ? "active-tab" : ""}`} id='achievements'>
               <ul>
                 <li><span>Winner of Codeutsava</span><br></br>Secured 1st position in hackathon</li>
                 <li><span>Winner of 30 days of code</span><br></br>Won the 30 days contest organised by TCP</li>

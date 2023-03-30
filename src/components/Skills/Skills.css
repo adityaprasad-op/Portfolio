@@ -1,4 +1,4 @@
-#services{
+#skills{
     padding: 30px 0;
 }
 
@@ -9,15 +9,10 @@
     margin-top: 50px;
 }
 
-.skills-list div img{
-    width: 50px;
-    margin-bottom: 30px;
-}
 .skills-list div{
     background-color: var(--card-color);
     padding: 40px;
     font-size: 13px;
-    font-weight: 300;
     border-radius: 10px;
     transition: 0.8s;
 }

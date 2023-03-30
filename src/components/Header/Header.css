@@ -16,7 +16,6 @@
 .imgbox{
     width: auto;
     right: 0;
-    z-index: -1;
     height: 745px;
     display: flex;
     justify-content: end;
@@ -47,6 +46,27 @@ nav{
     margin-top: 40px;
 }
 
+.header-text{
+   margin-top: 100px;
+   margin-left: 7rem;
+}
+
+.header-text h3{
+    font-size: 2rem;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.4s;
+}
+
+.header-text h1{
+    font-size: 4.3rem;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 0.8;
+}
 .logo h1{
     font-size: 2rem;
     cursor: default;
@@ -81,7 +101,7 @@ nav ul li a::after{
     background: var(--main-color);
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: -3px;
     transition: 0.8s;
 }
 
@@ -90,7 +110,8 @@ nav ul li a:hover::after{
 }
 nav ul li a:hover{
     color: #ff004c;
-}
+} 
+
 nav ul{
     flex: 1;
     text-align: right;
@@ -101,27 +122,6 @@ nav ul{
     margin-top: 4px;
 }
 
-.header-text{
-   margin-top: 100px;
-   margin-left: 7rem;
-}
-
-.header-text h3{
-    font-size: 2rem;
-    font-weight: 700;
-    opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 0.4s;
-}
-
-.header-text h1{
-    font-size: 4.3rem;
-    font-weight: 700;
-    margin: -3px 0;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 0.8;
-}
 
 .header-text h3 span{
     color: var(--main-color);
@@ -195,7 +195,6 @@ nav ul{
         background: #cc003f;
         position: fixed;
         top: 0;
-        right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
