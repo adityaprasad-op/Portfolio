@@ -34,9 +34,9 @@ const About = () => {
             </div>
             <div className={`tab-content ${activeTab === "achievements" ? "active-tab" : ""}`} id='achievements'>
               <ul>
-                <li><span>Winner of Codeutsava</span><br></br>Secured 1st position in hackathon</li>
+                <li><span>Winner of Codeutsava</span><br></br>Secured Overall 1st position in hackathon</li>
+                <li><span>Smart India Hackathon(SIH)</span><br></br>Shortlisted for SIH by college</li>
                 <li><span>Winner of 30 days of code</span><br></br>Won the 30 days contest organised by TCP</li>
-                <li><span>Solved 200+ Problems</span><br></br>Solved 200+ problems across all platforms</li>
               </ul>
             </div>
             <div className={`tab-content ${activeTab === "education" ? "active-tab" : ""}`} id='experience'>
@@ -47,8 +47,9 @@ const About = () => {
             </div>
             <div className={`tab-content ${activeTab === "experience" ? "active-tab" : ""}`} id='education'>
               <ul>
+                <li><span>Web development Intern</span><br></br>1 month internship in the comppany Octanet</li>
                 <li><span>Codeutsava 6.0</span><br></br>Team Lead in the hackathon</li>
-                <li><span>Eclectika</span><br></br>Contributed in the Eclectika'23 Website</li>
+                <li><span>E-Cell</span><br></br>Making a E-Hall booking system for the college in which person can book E-Hall without personally visiting the department</li>
               </ul>
             </div>
           </div>
