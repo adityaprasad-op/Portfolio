@@ -172,3 +172,100 @@
 }
 
 
+
+/* Updated project card styles */
+.work-card {
+  display: flex !important;
+  flex-direction: column;
+  padding: 28px !important;
+  border-radius: 14px;
+  background: var(--card-color);
+  border: 1px solid rgba(128,128,128,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: unset !important;
+  overflow: visible !important;
+}
+
+.work-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+}
+
+.work-emoji {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.work-content {
+  flex: 1;
+}
+
+.work-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.work-header h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.work-badge {
+  font-size: 0.72rem;
+  background: var(--main-color);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.work-tech {
+  font-size: 0.8rem;
+  color: var(--main-color);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.work-desc {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin-bottom: 14px;
+}
+
+.work-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.work-links a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.work-links a svg {
+  width: 13px;
+  height: 13px;
+  fill: var(--main-color);
+}
+
+.work-private {
+  font-size: 0.8rem;
+  opacity: 0.55;
+}
+
+/* Override old hover overlay for card style */
+.work-card .layer {
+  display: none !important;
+}

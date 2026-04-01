@@ -1,0 +1,91 @@
+
+
+.subtitle-experience {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.subtitle-experience::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--main-color);
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.exp-timeline {
+  position: relative;
+  padding-left: 32px;
+  border-left: 3px solid var(--main-color);
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.exp-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.exp-dot {
+  position: absolute;
+  left: -42px;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--main-color);
+  border: 3px solid var(--background-color, #fff);
+  box-shadow: 0 0 0 2px var(--main-color);
+}
+
+.exp-content {
+  background: var(--card-color);
+  border-radius: 12px;
+  padding: 24px 28px;
+  border: 1px solid rgba(128,128,128,0.12);
+}
+
+.exp-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.exp-header h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.exp-company {
+  background: var(--main-color);
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.exp-date {
+  font-size: 0.82rem;
+  opacity: 0.6;
+  margin-left: auto;
+}
+
+.exp-content ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.exp-content ul li {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  margin-bottom: 6px;
+  opacity: 0.88;
+}
