@@ -75,7 +75,7 @@ const Header = () => {
             automation workflows, and scalable backend systems with Python, FastAPI, and LangGraph.
           </p>
           <div className='header-cta'>
-            <a href="#contact" className='btn'>Hire Me</a>
+            <a href="#contact" className='btn btn-outline'>Hire Me</a>
             <a href="#projects" className='btn btn-outline'>View Work</a>
           </div>
         </div>

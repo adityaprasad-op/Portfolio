@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Contacts.css'
 import Cv from '../../assets/cv.pdf'
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+
 
 const Contacts = () => {
   const [formData, setFormData] = useState({ Name: '', email: '', message: '' });
@@ -42,9 +44,8 @@ const Contacts = () => {
             </p>
             <p>📱 +91-9318386024</p>
             <div className='social-icons'>
-              <a href='https://github.com/adityaprasad-op' target='_blank' rel="noreferrer">GitHub</a>
-              <a href='https://www.linkedin.com/in/aditya-prasad-x007/' target='_blank' rel="noreferrer">LinkedIn</a>
-              <a href='https://www.instagram.com/adityax.007/' target='_blank' rel="noreferrer">Instagram</a>
+              <a href= 'https://github.com/adityaprasad-op' target='_blank' rel="noreferrer"><FaGithub/></a>
+              <a href='https://www.linkedin.com/in/aditya-prasad-x007/' target='_blank' rel="noreferrer"><FaLinkedin/></a>
             </div>
             <a href={Cv} download className='btn btn2'>Download CV</a>
           </div>
